@@ -1,12 +1,12 @@
 Summary:	Maps for Crossfire, the multiplayer roguelike game server
 Summary(pl):	Mapy do Crossfire, serwera gry roguelike dla wielu graczy
 Name:		crossfire-maps-big
-Version:	1.5.0
+Version:	1.6.0
 Release:	1
 License:	GPL
 Group:		Applications/Games
 Source0:	http://dl.sourceforge.net/crossfire/crossfire-%{version}.maps-big.tar.bz2
-# Source0-md5:	02767e95abd4d0b8e4d93a730554d301
+# Source0-md5:	e5aa783d65ba8c224a75f075d3820ab1
 URL:		http://crossfire.real-time.com/
 BuildArch:	noarch
 Provides:	crossfire-maps
@@ -24,7 +24,7 @@ dostêpni klienci pod Windows i w Javie. Ten pakiet zawiera standardowe
 mapy opisuj±ce ¶wiat gry.
 
 %prep
-%setup -qn maps
+%setup -qn maps-bigworld
 
 %install
 rm -rf $RPM_BUILD_ROOT
