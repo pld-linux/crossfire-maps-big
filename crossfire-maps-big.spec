@@ -29,6 +29,7 @@ mapy opisuj±ce ¶wiat gry.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/crossfire/maps/scripts
+
 mv * $RPM_BUILD_ROOT%{_datadir}/crossfire/maps
 mv .* $RPM_BUILD_ROOT%{_datadir}/crossfire/maps
 mv $RPM_BUILD_ROOT%{_datadir}/crossfire/maps/Info .
