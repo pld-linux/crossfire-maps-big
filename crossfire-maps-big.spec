@@ -5,7 +5,7 @@ Version:	1.5.0
 Release:	1
 License:	GPL
 Group:		Applications/Games
-Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/crossfire/crossfire-%{version}.maps-big.tar.bz2
+Source0:	http://dl.sourceforge.net/crossfire/crossfire-%{version}.maps-big.tar.bz2
 URL:		http://crossfire.real-time.com/
 BuildArch:	noarch
 Provides:	crossfire-maps
