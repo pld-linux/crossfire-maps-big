@@ -1,12 +1,12 @@
 Summary:	Maps for Crossfire, the multiplayer roguelike game server
-Summary(pl):	Mapy do Crossfire, serwera gry roguelike dla wielu graczy
+Summary(pl.UTF-8):   Mapy do Crossfire, serwera gry roguelike dla wielu graczy
 Name:		crossfire-maps-big
-Version:	1.6.0
+Version:	1.9.1
 Release:	1
 License:	GPL
 Group:		Applications/Games
-Source0:	http://dl.sourceforge.net/crossfire/crossfire-%{version}.maps-big.tar.bz2
-# Source0-md5:	e5aa783d65ba8c224a75f075d3820ab1
+Source0:	http://dl.sourceforge.net/crossfire/crossfire-%{version}.maps.tar.bz2
+# Source0-md5:	1cd8c557ed2e5ea0bef1686f7bba0e35
 URL:		http://crossfire.real-time.com/
 BuildArch:	noarch
 Provides:	crossfire-maps
@@ -18,13 +18,13 @@ Crossfire is a multiplayer graphical arcade and adventure game made
 for the X-Window environment. There are also Windows and Java clients
 available. This package contains default maps describing game's world.
 
-%description -l pl
-To jest graficzna gra przygodowa dla ¶rodowiska X-Window. S± tak¿e
-dostêpni klienci pod Windows i w Javie. Ten pakiet zawiera standardowe
-mapy opisuj±ce ¶wiat gry.
+%description -l pl.UTF-8
+To jest graficzna gra przygodowa dla Å›rodowiska X-Window. SÄ… takÅ¼e
+dostÄ™pni klienci pod Windows i w Javie. Ten pakiet zawiera standardowe
+mapy opisujÄ…ce Å›wiat gry.
 
 %prep
-%setup -qn maps-bigworld
+%setup -qn maps
 
 %install
 rm -rf $RPM_BUILD_ROOT
