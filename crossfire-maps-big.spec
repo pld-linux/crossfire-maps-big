@@ -1,5 +1,5 @@
 Summary:	Maps for Crossfire, the multiplayer roguelike game server
-Summary(pl.UTF-8):   Mapy do Crossfire, serwera gry roguelike dla wielu graczy
+Summary(pl.UTF-8):	Mapy do Crossfire, serwera gry roguelike dla wielu graczy
 Name:		crossfire-maps-big
 Version:	1.9.1
 Release:	1
